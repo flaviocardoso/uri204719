@@ -1,0 +1,91 @@
+-Requisitos funcionais:
+
+O usuário cadastrata no sistema.
+O usuário Apaga seu cadastro.
+O usuário gerencia o seu perfil.
+O usuário seleciona o carro desejado.
+O usuário solicita um teste drive.
+O sistema emite os contratos do usuario junto com o custo da alocação.
+O sistema gerencia várias locadoras e suas sublocações.
+O usuário solicita a verificão as pendencias devidas.
+O sistema Informa qual sua agencia reguladora e validação de documentos.
+O sistema informa quantas multas tem o carro para o sistema de gerenciameto de pagamento.
+O sistema recebe dados do gerenciamento de multas.
+O sistema recebe relatórios de contas a pagar e pagas.
+O sistema recebe relatórios de contas a receber e recebidas.
+O sistema calcula os custos contaveis das multilocadora e suas sublocadoras.
+O sistema alerta carros da manutenção prevetiva vencida.
+O sistema informa o perfil do usuário.
+O sistema informa dados para o sistema de Controle de manuntenção corretiva e preventiva.
+O sistema gerencia o controle de abastecimentos com os principais postos de combustiveis.
+O sistema gerencia a geração de documentos.
+O sistema fornece informação gerenciais apartir de gráficos.
+O sistema fornece informaçções para o sistema financeiro.
+O sistema controla o gerenciameto para controle no atendimento aos usuários.
+O sistema Emiti Relatório de estoque de carros disponíveis.
+O sistema informa a quantidade de carros de estão disponíveis ao usúario.
+o sistema informa a utilização dos carros.
+O sistema informa quais os tipos de carros e modelos.
+O sistema informa qual aluguel de carros mais baratos.
+O sistema informa a ficha técnica do carro.
+O cliente informa especificação do carro.
+O sistema gernecia o controle da vistória de carro e avisos.
+O sistema informa as especificações do carro.
+O sistema informa qual a cor do carro para o usuário.
+O sistema informa a saída e entrada de carros no estoque.
+O sistema informa o número de carros no estoque.
+O sistema informa o cadastro de novos carros.
+O sistema cadastra novos carros.
+O sistema emite relátorio da utilização dos carros pelo usuário com histórico de uso.
+O sistema verifica o número de pontos de fidelidade do usuário.
+O sistema reserva um carro para o usuário.
+O sistema monta uma agenda eletrônica.
+O sistema gera um udentificador único para a reserva que é passada para usuário.
+O sistema informa um relatório  de locações perdidas.
+O usuário renova a reserva de um carro.
+O sistema gerencia frotas de outras locadoras cadastradas.
+O sistema gerencia o controle da frota.
+O usuario solicida uma reserva de um carro.
+O usuário solita a cancelação da reverva do carro.
+O sistema informa as locadoras de carros mais próximas.
+O sistema solicita a localização do usuário.
+O usuário informa o endereço para entrega do carro.
+O sistema calcula a custo da entrega do carro conforme a localização do usuário.
+O sistema calcula a custo de um promoção para aluguar um carro da para os assíduos e que pagam em dia.
+O sistema emite relatório de usuário de pagam em dia.
+O sistema emite relatório de usuário que são mais assíduos.
+O sistema emite avisos de controle para usuários que não pagam em dia.
+O sistema informa qual a forma de pagamento para o usúario.
+O sistema informa a autorização da forma de pagamento para operadora de crédito, para eventual cartão de credito ou debito.
+O sistema envia dados do cartão de credito ou debito e valor do aluguel do carro para uma operadora financeira.
+O sistema informa que a autorização foi aceita ou não.
+
+-Requisitos Não-Funcionais:
+
+o sisteme apresenta facilidade de Uso - por meio de uma interface simples, de fácil manuseio e assimilação.
+o sistema proporciona rapizes ao usuário - através de acesso rápido de acesso e comunicação com a sistema.
+o sistema garante a segurança para o usuário - devidas permissões de acesso para cada uma das janelas do sistema e determinando que tipo de ação os usuários teram acesso(como um consulta, inclusão, alteração ou exclusão dos dados no sistema);
+o sistema é multiplataforma - o usuário pode ser acessado por meio de diversos dispositivos, dentre eles computadores, notebooks, tables, smart phones baseados windows, ios, android.
+o sistema tem rastreabilidade pelo gps em seus carros - isso garante a localização precisa de seus carro e pelo controle.
+o sistema apresenta a rastrabilidade de toda a operação - isso permite que seja registrada o nome do usuário, data, hora, dados inseridos, dados alterados e os dados excluídos.
+o sistema em platama web e aplicação fica disponível 24 horas por dia.
+o Sistema permite o sitema de mutipagamento - permitindo o pagamento via boleto, cartão, paypal, etc...
+O sistema permite que o usuário escolha em pegar o carro alugado na locadora ou que seja entregue.
+o Sistema mantém dados em servidores seguros.
+o sistema mantém carros alugado com seguro.
+O sistema permite a porcentagem de promoções envetuais entre 10% a 20%.
+O sistema mantém um tempo estipulado de 1 a 2 horas para o teste drive.
+O sistema só aceita agencias de controle de combustivel, de regudoras, de financeiras autorizadas.
+O sistema permite a sua manuntenção e controle de relatórios de erros.
+O sistema permite a manuntenção de documentos.
+O sistema auto verificasse para a correção de erros.
+O sistema que tem telas do controle da interface on-line devem ter informação de ajuda associado em todas as funções para que o usuário saiba exatamente o que está fazendo.
+O sistema deve supostar pelo menos 1000 usuários on-line.
+O sistema precisa de acesso a internet para as plataformas web e aplicativos.
+O sistema permite um raio de 10km para locadora mais próxima para aluguar carro via internet.
+
+
+-Requisitos inversos:
+O sistema não permite que o usuário que usuário cadastre mais de uma vez.
+O sistema não permite que o usuário apague seu cadastro que tem pendencias.
+O sistema não permite o aluguer de um carro com usuário que esteja longe da área de cobertura do raio de atuação.
