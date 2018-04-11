@@ -12,13 +12,9 @@ HI, MI, HF, MF = map(int, input().split())
 DH = HF - HI
 DM = MF - MI
 
-if(DH > 0 and HF != HI):
-        if(DM >= 0):
-                print("O JOGO DUROU {0} HORAS E {1} MINUTO(S)".format(DH, DM))
-        else:              
-                HT = 60 * DH
-                CM = HT + DM
-                HT = CM / 60
-                MT = CM % 60
-                
-                print("O JOGO DUROU {0:.0f} HORAS E {1:d} MINUTO(S)".format(HT, MT))
+if(HF <= HI):
+    DH = 24 + DH
+if(MF < MI):
+    DM = 60 + DM
+    DH = DH - 1
+print("O JOGO DUROU {0} HORA(S) E {1} MINUTO(S)".format(DH, DM))
